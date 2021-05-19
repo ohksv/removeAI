@@ -2,7 +2,7 @@ Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0) -- Waits Every Tick
 
-        -- Managing the Traffic, as well as Ped Density. (BOTH MUST RUN EVERY TICK)
+-- Managing the Traffic, as well as Ped Density. (BOTH MUST RUN EVERY TICK)
         SetTrafficDensity(0.0) -- (Vehicle Density) 0.0 is none, and 1.0 is the max.
         SetPedDensity(0.0) -- (Ped Density) 0.0 is none, and 1.0 is the max.
     end
