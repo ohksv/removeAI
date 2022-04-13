@@ -1,3 +1,4 @@
+-- Made by KSV [https://github.com/ohksv]
 Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0) -- Waits Every Tick
